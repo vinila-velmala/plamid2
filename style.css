@@ -1,70 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins', sans-serif;
-    box-sizing: border-box;
-
-}
-body{
-    background-color: rgb(193, 200, 200);
-    text-align: center;
-    padding: 20px;
-    border: 30px;
-}
 h1{
-    
-    color: rgb(18, 5, 5);
+    color: lch(9.41% 0.91 324.51);
+    font-size:20px;
+    font-weight: 900;
+    text-align: center;
 }
+ body{
+    background: linear-gradient(to right, hwb(276 18% 24% / 0.786),#3e89a248, #2c5364);
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    margin: 7px;
 
-.container{
+ }
+ #form{
+    width: 220px;
+    margin: 10vh auto 0 auto;
+    padding: 30px;
+    background-color: #86602726;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
 
-    width: 100%;
-    height: 80vh;
-    background-color: rgb(201, 205, 209);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.calculator{
-    background-color: cadetblue;
-    padding: 20px;
-    border-radius: 10px;
-
-}
-.calculator form input{
-    border: 0;
-    outline: 0;
-    width: 60px;
-    height: 60px;
-    border-radius:10px ;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) , 5px 5px 15px rgba(0, 0, 0, 0.2);
-    background: transparent;
-    font-size:20px ;
-    color: #fff;
+    text-transform: uppercase;
+ }
+ #form button{
     cursor: pointer;
-    margin: 10px;
-}
-form .display{
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px 0 ;
-}
-form .display input{
-    text-align: right;
-    flex: 1;
-    font-size: 45px;
-    box-shadow: none;
-}
-form input.equal{
-    width: 145px;
-}
-form input.operator{
-    color: rgba(18, 11, 11, 0.364);
-}
+    font-weight: 800px;
+    padding: 10px;
+    margin: 2cqmax;
+    width: 100px;
+    color: brown;
+    background-color: darkgrey;
+    border-radius: 4px;
+    text-transform: uppercase;
+    
+    
+ }
+ .form-control{
+    border: 2px;
+    border: hsl(37, 18%, 72%);
+    border-radius: 5px;
+    display: block;
+    font-size: 10px;
+    padding: 10px;
+    width: 100px; 
+    block-size: 50px; 
+    width: 150px; 
+    outline: none;
+ }
+ .form-control form:focus{
+    outline: 90;
+ }
+ .form-control.success form{
+    border-color: chocolate;
 
-
-
-
-
+ }
  
+
+
+
+  
+
+  
